@@ -15,6 +15,8 @@
 		0F1D18B01E8CA5FC00A17A38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F1D18AE1E8CA5FC00A17A38 /* LaunchScreen.storyboard */; };
 		0F1D18BB1E8CA5FC00A17A38 /* ChainProgrammingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D18BA1E8CA5FC00A17A38 /* ChainProgrammingTests.m */; };
 		0F1D18C61E8CA5FC00A17A38 /* ChainProgrammingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D18C51E8CA5FC00A17A38 /* ChainProgrammingUITests.m */; };
+		0F1D18D81E8CA68000A17A38 /* Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D18D71E8CA68000A17A38 /* Chain.m */; };
+		0F1D18DE1E8CB26800A17A38 /* UIView+CXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1D18DD1E8CB26800A17A38 /* UIView+CXExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0F1D18C11E8CA5FC00A17A38 /* ChainProgrammingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainProgrammingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1D18C51E8CA5FC00A17A38 /* ChainProgrammingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainProgrammingUITests.m; sourceTree = "<group>"; };
 		0F1D18C71E8CA5FC00A17A38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F1D18D61E8CA68000A17A38 /* Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chain.h; sourceTree = "<group>"; };
+		0F1D18D71E8CA68000A17A38 /* Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chain.m; sourceTree = "<group>"; };
+		0F1D18DC1E8CB26800A17A38 /* UIView+CXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+CXExtension.h"; path = "../UIView+CXExtension.h"; sourceTree = "<group>"; };
+		0F1D18DD1E8CB26800A17A38 /* UIView+CXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CXExtension.m"; path = "../UIView+CXExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				0F1D18A41E8CA5FC00A17A38 /* AppDelegate.m */,
 				0F1D18A61E8CA5FC00A17A38 /* ViewController.h */,
 				0F1D18A71E8CA5FC00A17A38 /* ViewController.m */,
+				0F1D18D61E8CA68000A17A38 /* Chain.h */,
+				0F1D18D71E8CA68000A17A38 /* Chain.m */,
+				0F1D18DC1E8CB26800A17A38 /* UIView+CXExtension.h */,
+				0F1D18DD1E8CB26800A17A38 /* UIView+CXExtension.m */,
 				0F1D18A91E8CA5FC00A17A38 /* Main.storyboard */,
 				0F1D18AC1E8CA5FC00A17A38 /* Assets.xcassets */,
 				0F1D18AE1E8CA5FC00A17A38 /* LaunchScreen.storyboard */,
@@ -274,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F1D18A81E8CA5FC00A17A38 /* ViewController.m in Sources */,
+				0F1D18D81E8CA68000A17A38 /* Chain.m in Sources */,
 				0F1D18A51E8CA5FC00A17A38 /* AppDelegate.m in Sources */,
+				0F1D18DE1E8CB26800A17A38 /* UIView+CXExtension.m in Sources */,
 				0F1D18A21E8CA5FC00A17A38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
